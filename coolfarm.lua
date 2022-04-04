@@ -1,16 +1,9 @@
    ModIDS = {
-352361396,
-    }
-
-    BoxingChampion = {
-    2,
-    }
-    uwu = {
-    5,
+[352361396] = true,
     }
 
     admin = {
-  1,
+  [2] = true,
     }
 
 --\\ Don't mess with anything below this
@@ -20,20 +13,6 @@ function swagnames()
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
 					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)
-				end
-			end
-		elseif
-			table.find(BoxingChampion, Player.UserId) then
-			if Player.Character then
-				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. Player.DisplayName)
-				end
-			end
-		elseif
-			table.find(uwu, Player.UserId) then
-			if Player.Character then
-				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('uwu')
 				end
 			end
 		elseif
